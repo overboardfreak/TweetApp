@@ -1,0 +1,25 @@
+service: fse1-backend
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  memorySize: 2048
+  stage: prod
+  timeout: 15
+  region: us-east-1
+
+# you can define service wide environment variables here
+#  environment:
+#    variable1: value1
+
+functions:
+  main:
+    handler: handler.main
+    events:
+      - http: ANY /{proxy+}
+      - http: ANY /
+    environment:
+      KEY: secret key
+      APIKEY: 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
+      MONGODB_URL: "mongodb+srv://tweetApp:tweetApp123@cluster0.ol2x7.mongodb.net/?retryWrites=true&w=majority"

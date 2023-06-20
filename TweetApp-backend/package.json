@@ -1,0 +1,37 @@
+{
+  "name": "fse1-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "deploy": "serverless deploy"
+  },
+  "keywords": [],
+  "author": "Achyut KV",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chance": "^1.1.8",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "find-hashtags": "^1.0.1",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.1.0",
+    "mongoose": "^6.3.2",
+    "node-bcrypt": "^0.0.1",
+    "nodemon": "^2.0.16",
+    "otp-generator": "^4.0.0",
+    "serverless-http": "^3.0.1",
+    "sib-api-v3-sdk": "^8.3.0",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.3.0",
+    "validator": "^13.7.0"
+  }
+}

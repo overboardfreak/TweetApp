@@ -1,0 +1,17 @@
+export const BASE_URI ='https://qw1u107mje.execute-api.us-east-1.amazonaws.com/prod';
+export const BASE_TWEET_URL = '/api/v1/tweetapp/tweets'
+export const FORGOT_PASSWD = '/api/v1/tweetapp/user/forgetPassword'
+export const LOGIN = '/api/v1/tweetapp/user/signin'; 
+export const LOGOUT = '/api/v1/tweetapp/user/logout';
+export const REGISTER = '/api/v1/tweetapp/user/signup'; 
+export const ALL_TWEETS = '/api/v1/tweetapp/tweets'; 
+export const ALL_USERS = '/api/v1/tweetapp/user/getAllUsers'; 
+export const GET_USER = "/api/v1/tweetapp/user/getUser";
+export const RESET = "/api/v1/tweetapp/user/resetPassword";
+export const MYTWEET = '/api/v1/tweetapp/tweet';
+export const REPLY = '/api/v1/tweetapp/tweets/comment';
+export const SENDREQUEST = '/api/v1/tweetapp/user/friend_request';
+export const NOTIFICATION = '/api/v1/tweetapp/user/friend_request';
+export const GETUSERBYID = '/api/v1/tweetapp/user/id/628289ff89f4771546bab169';
+export const REQUESTRESPONSE = '/api/v1/tweetapp/user/friend_request';
+export const UPDATEUSER = '/api/v1/tweetapp/user/userprofile';
